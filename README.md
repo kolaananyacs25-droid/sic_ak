@@ -1,2 +1,3 @@
 # sic_ak
-This repository is created for learning and exploring sic 
+this repository contains the project developed under samsung innovation campus , demonstrating innovation .
+
