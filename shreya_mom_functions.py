@@ -6,3 +6,4 @@ def input_list(list_num, text = ""):
             list_num.append(int(input()))
     else:
         print("n < 1, hence shoes are not available to purchase")
+        
