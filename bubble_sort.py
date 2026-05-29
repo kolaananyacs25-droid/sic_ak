@@ -1,6 +1,13 @@
-def bubbleSort(n,elements):
-    for i in range(n-2):
-        for j in range(n-2-i):
-            if elements [j] > elements[j+1]:
-                elements[j],elements[j+1]= elements[j+1],elements[j]
-return elements 
+def bubble_sort(numbers):
+
+    for i in range(len(numbers)):
+
+        for j in range(0, len(numbers) - i - 1):
+
+            if numbers[j] > numbers[j + 1]:
+
+                temp = numbers[j]
+                numbers[j] = numbers[j + 1]
+                numbers[j + 1] = temp
+
+    return numbers

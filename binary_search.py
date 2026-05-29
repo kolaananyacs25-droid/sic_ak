@@ -1,11 +1,11 @@
 def binary_search(search_element, input_list):
-    low = 0 # the index of very 1st element
-    high = len(input_list) - 1 # index of the last element
+    low = 0 
+    high = len(input_list) - 1
     while low <= high:
         mid_index = (low + high) // 2
         if search_element == input_list[mid_index]:
             return mid_index
         elif search_element < input_list[mid_index]:
-            high = mid_index - 1 # set the new search area as 1st half of the list
+            high = mid_index - 1
         else:
-            low = mid_index + 1 # set the search area as 2nd half of list
+            low = mid_index + 1 
